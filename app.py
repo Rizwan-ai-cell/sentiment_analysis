@@ -1,5 +1,4 @@
 import streamlit as st
-import numpy as np
 from tensorflow.keras.models import load_model # type: ignore
 from tensorflow.keras.preprocessing.sequence import pad_sequences # type: ignore
 import pickle
@@ -37,4 +36,3 @@ if st.button("Predict Sentiment"):
 
         # Display the result
         st.write(f"### Prediction: **{sentiment}**")
-        st.write(f"Confidence Score: {prediction:.2f}")
