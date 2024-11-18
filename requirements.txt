@@ -1,0 +1,5 @@
+# Core dependencies
+tensorflow==2.12.0       # TensorFlow includes Keras by default
+keras==2.12.0            # Explicitly include Keras if needed
+streamlit==1.40.1        # Streamlit for web app deployment
+numpy==1.23.5            # Numerical operations
