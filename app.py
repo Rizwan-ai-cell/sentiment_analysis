@@ -1,6 +1,7 @@
 import streamlit as st
-from tensorflow.keras.models import load_model # type: ignore
-from tensorflow.keras.preprocessing.sequence import pad_sequences # type: ignore
+import tensorflow as tf
+from tensorflow.keras.models import load_model  # type: ignore
+from tensorflow.keras.preprocessing.sequence import pad_sequences  # type: ignore
 import pickle
 
 # Load the trained model and tokenizer
